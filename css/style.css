@@ -1,27 +1,54 @@
+/*----------------------------------------navbar*/
 
-/*-------------------navbar*/
 .logo {
     font-size: 35px;
-    color: black;
+    color: White;
     text-align: center;
+    font-family: 'Pacifico', sans-serif;
+    font-weight: 400;
+    text-shadow: 2px 2px 4px #000000;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-left: 300px;
+    padding-right: 300px;
+    border: 2px solid black;
+}
+
+.menu-blocks {
+    margin: 10px;
 }
 
 .menu-item {
     color: black;
+    font-family: 'Pacifico', sans-serif;
+    font-weight: 400;
+    color: white;
+    border: 2px solid black;
+    text-shadow: 2px 2px 4px #000000;
 }
 
-.navbar{
+.menu-item: hover {
+    background-color: black;
+}
+
+.navbar {
     text-align: center;
 }
 
+/*-------------------------------------------body*/
+
 body {
     background-color: grey;
+
+
 }
 
 .profilepic {
     opacity: 0.7;
     background-position: right 300px;
     background-repeat: no-repeat;
-    
+    filter: drop-shadow(0 0 10px #000);
+
 }
-    
