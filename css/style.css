@@ -1,19 +1,30 @@
-/*----------------------------------------navbar*/
+/*-------------------------------------------------navbar*/
 
 .logo {
     font-size: 35px;
     color: White;
     text-align: center;
-    font-family: 'Pacifico', sans-serif;
+    font-family: 'Staatliches', sans-serif;
     font-weight: 400;
-    text-shadow: 2px 2px 4px #000000;
+    letter-spacing: 12px;
+    text-shadow: -5px 3px 6px #000000;
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 100px;
     margin-right: 100px;
     padding-left: 300px;
     padding-right: 300px;
-    border: 2px solid black;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+
+}
+
+.logo:hover {
+    opacity: 0.8;
+    transform: scale(1.1);
+    text-shadow: -7px 6px 10px #000000;
+
 }
 
 .menu-blocks {
@@ -22,27 +33,40 @@
 
 .menu-item {
     color: black;
-    font-family: 'Pacifico', sans-serif;
+    font-family: 'Staatliches', sans-serif;
     font-weight: 400;
+    font-size: 20px;
     color: white;
-    border: 2px solid black;
-    text-shadow: 2px 2px 4px #000000;
+    text-shadow: -5px 3px 6px #000000;
+    text-transform: capitalize;
+    letter-spacing: 10px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
 }
 
-.menu-item: hover {
-    background-color: black;
+.menu-item:hover {
+    color: White;
+    opacity: 0.8;
+    transform: scale(1.1);
+    text-shadow: -7px 6px 10px #000000;
 }
 
 .navbar {
     text-align: center;
 }
 
-/*-------------------------------------------body*/
+/*---------------------------------------------------------body*/
 
 body {
     background-color: grey;
+}
 
+/*-------------------------------------------left side home page*/
 
+.picturecontainer {
+    max-width: 40%;
+    
 }
 
 .profilepic {
@@ -50,5 +74,24 @@ body {
     background-position: right 300px;
     background-repeat: no-repeat;
     filter: drop-shadow(0 0 10px #000);
+    margin: 50px;
+    margin-left: 150px;
 
+}
+
+/*-------------------------------------------right side home page*/
+
+.right-panel {
+    display: inline;
+}
+
+
+/*---------------------------------------------------------footer*/
+.footer {
+    position: absolute;
+    background-color: black;
+    height: 80px;
+    width: 100%;
+    color: white;
+    
 }
