@@ -1,0 +1,27 @@
+
+/*-------------------navbar*/
+.logo {
+    font-size: 35px;
+    color: black;
+    text-align: center;
+}
+
+.menu-item {
+    color: black;
+}
+
+.navbar{
+    text-align: center;
+}
+
+body {
+    background-color: grey;
+}
+
+.profilepic {
+    opacity: 0.7;
+    background-position: right 300px;
+    background-repeat: no-repeat;
+    
+}
+    
