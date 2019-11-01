@@ -1,21 +1,12 @@
+html {
+    scroll-behavior: smooth;
+  }
+
 /*-------------------------------------------------navbar*/
 
-.logo {
-    font-size: 35px;
-    color: #ffc045;
-    text-align: center;
-    font-family: 'Staatliches', sans-serif;
-    font-weight: 400;
-    letter-spacing: 12px;
-    text-shadow: -5px 3px 6px #000000;
-    -webkit-text-stroke: 0.5px black;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5 ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-
+header {
+    background-color: ##ffc045;
 }
-
-
 
 .line-divider {
     height: 1px;
@@ -28,14 +19,13 @@
 }
 
 .menu-item {
-    background-color: #065371;
+    background-color: #ffc045;
     font-family: 'Staatliches', sans-serif;
     font-weight: 400;
     font-size: 20px;
-    color: #ffc045;
-    text-shadow: -5px 3px 6px #000000;
+    color:  #065371;
     text-transform: capitalize;
-    letter-spacing: 10px;
+    letter-spacing: 8px;
     transition: all .5s ease-in-out;
     -moz-transition: all .4s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
@@ -47,12 +37,13 @@
     opacity: 0.8;
     margin-top: 10px;
     margin-bottom: 10px;
+    display: block;
 }
 
 
 
 .menu-item:hover {
-    color: #ffe6b5;
+    color: #ffe6b5 !important;
     opacity: 0.8;
     transform: scale(1.1);
     text-shadow: -7px 6px 10px #000000;
@@ -76,32 +67,37 @@ body {
 /*-------------------------------------------homepage*/
 
 .home {
-    height: 100vh;
-}
-
-.picturecontainer {
+    min-height: 100vh;
     text-align: center;
-    display: inline-block;
-    
 }
-
-.profilepic {
-    background-repeat: no-repeat;
-    filter: drop-shadow(0 0 10px #000);
-    margin: 50px;
-}
-
 
 .banner{
-    margin: 150px;
+    margin: 50px;
     text-align: center;
     display: inline-block;
+    position: relative;
+    text-align: center;
     
 }
 
 .cool-logo {
     filter: drop-shadow(0 0 10px #000);
     margin: 50px;
+}
+
+.logo {
+    font-size: 35px;
+    color: #ffc045;
+    text-align: center;
+    font-family: 'Staatliches', sans-serif;
+    font-weight: 400;
+    letter-spacing: 12px;
+    text-shadow: -5px 3px 6px #000000;
+    -webkit-text-stroke: 0.5px black;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5 ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+
 }
 
 .logo-subtext {
@@ -115,13 +111,52 @@ body {
     letter-spacing: 10px;
     padding: 10px;
 }
+/*---------------------------------------------------------about me*/
 
-    
+.about-me {
+    min-height: 100vh; 
+    background-color: #f7f6f4d1;
+    text-align: center;
+}
+
+.about-me-text {
+    margin-top: 20px;
+    font-family: 'Staatliches', sans-serif;
+    font-weight: 100;
+    font-size: 25px;
+}
+
+.profilepic {
+    background-repeat: no-repeat;
+    filter: drop-shadow(0 0 10px #000);
+    opacity: 0.9;
+    max-width: 60%;
+    height: auto;
+/*    margin: 50px; */
+}
+
+
 /*---------------------------------------------------------resume*/
 
 .resume {
-    height: 100vh; 
-    background-color: black;
+    min-height: 100vh; 
+    background-color: #ffffff;
+    object-fit: fill;
+}
+
+.page-title-resume {
+    margin-top: 30px;
+    font-size: 35px;
+    color: #065371;
+    text-align: center;
+    font-family: 'Staatliches', sans-serif;
+    font-weight: 400;
+    letter-spacing: 12px;
+    -webkit-text-stroke: 0.5px black;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5 ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+
 }
 
 .collapse-container {
@@ -136,23 +171,67 @@ body {
     background-color: #065371;
 }
 
+.make-it.fit {
+    object-fit: fill;
+}
+
+.experience {
+    padding-left: 10px;
+}
+
+
 /*---------------------------------------------------------portfolio*/
 
 .portfolio {
-    height: 100vh; 
+    min-height: 100vh; 
 }
+
+.page-title-portfolio {
+    margin-top: 30px;
+    font-size: 35px;
+    color: #ffc045;
+    text-align: center;
+    font-family: 'Staatliches', sans-serif;
+    font-weight: 400;
+    letter-spacing: 12px;
+    -webkit-text-stroke: 0.5px black;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5 ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+.cards-container {
+    margin: 30px;
+    text-align: center;
+}
+
+.card-portfolio {
+    margin: 20px;
+    display: inline-block;
+}
+
+.card-images {
+    max-height: 129px;
+}
+
 /*---------------------------------------------------------contact*/
 
 .contact {
-    height: 100vh; 
-    background-color: black;
+    min-height: 100vh; 
+    background-color: #f7f6f4d1;
 }
+
+.card-contact {
+    margin: 20px;
+    display: inline-block;
+    scale: 1.5;
+}
+
 
 /*---------------------------------------------------------footer*/
 .footer {
     position: relative;
     bottom: 0px;
-    background-color: grey;
+    background-color: rgb(40, 40, 40);
     height: 100px;
     color: white;
     
