@@ -1,0 +1,160 @@
+/*-------------------------------------------------navbar*/
+
+.logo {
+    font-size: 35px;
+    color: #ffc045;
+    text-align: center;
+    font-family: 'Staatliches', sans-serif;
+    font-weight: 400;
+    letter-spacing: 12px;
+    text-shadow: -5px 3px 6px #000000;
+    -webkit-text-stroke: 0.5px black;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5 ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+
+}
+
+
+
+.line-divider {
+    height: 1px;
+    background-color: black;
+    width: 100%;
+}
+
+.menu-blocks {
+    margin: 10px;
+}
+
+.menu-item {
+    background-color: #065371;
+    font-family: 'Staatliches', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #ffc045;
+    text-shadow: -5px 3px 6px #000000;
+    text-transform: capitalize;
+    letter-spacing: 10px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    text-decoration: none !important;
+}
+
+.menu-item i {
+    font-size: 15px;
+    opacity: 0.8;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+.menu-item:hover {
+    color: #ffe6b5;
+    opacity: 0.8;
+    transform: scale(1.1);
+    text-shadow: -7px 6px 10px #000000;
+    text-decoration: none !important;
+}
+
+
+
+.navbar {
+    text-align: center;
+    padding: 0px;
+    background-color: #065371;
+}
+
+/*---------------------------------------------------------body*/
+
+body {
+    background-color: #065371;
+}
+
+/*-------------------------------------------homepage*/
+
+.home {
+    height: 100vh;
+}
+
+.picturecontainer {
+    text-align: center;
+    display: inline-block;
+    
+}
+
+.profilepic {
+    background-repeat: no-repeat;
+    filter: drop-shadow(0 0 10px #000);
+    margin: 50px;
+}
+
+
+.banner{
+    margin: 150px;
+    text-align: center;
+    display: inline-block;
+    
+}
+
+.cool-logo {
+    filter: drop-shadow(0 0 10px #000);
+    margin: 50px;
+}
+
+.logo-subtext {
+    border-top: 1px solid #ffc045;
+    font-family: 'Staatliches', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #ffc045;
+    text-shadow: -5px 3px 6px #000000;
+    text-transform: capitalize;
+    letter-spacing: 10px;
+    padding: 10px;
+}
+
+    
+/*---------------------------------------------------------resume*/
+
+.resume {
+    height: 100vh; 
+    background-color: black;
+}
+
+.collapse-container {
+    margin: 40px;
+}
+
+.collapse-bar {
+    text-align: center;
+    background-color: #065371;
+}
+.card-header-style {
+    background-color: #065371;
+}
+
+/*---------------------------------------------------------portfolio*/
+
+.portfolio {
+    height: 100vh; 
+}
+/*---------------------------------------------------------contact*/
+
+.contact {
+    height: 100vh; 
+    background-color: black;
+}
+
+/*---------------------------------------------------------footer*/
+.footer {
+    position: relative;
+    bottom: 0px;
+    background-color: grey;
+    height: 100px;
+    color: white;
+    
+    
+}
